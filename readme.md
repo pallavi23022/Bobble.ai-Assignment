@@ -1,0 +1,4 @@
+My Machine is not compatible for Docker. I have tried many techniques but at the end unable to build.
+But I have made DockerFile successfully and added it to this repositary. 
+I was unable to connect to daemon. It was showing this error:
+`error during connect: Post http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.40/build?buildargs=%7B%7D&cachefrom=%5B%5D&cgroupparent=&cpuperiod=0&cpuquota=0&cpusetcpus=&cpusetmems=&cpushares=0&dockerfile=Dockerfile&labels=%7B%7D&memory=0&memswap=0&networkmode=default&rm=1&session=zut3jflk4cs6kahuhf83y05sc&shmsize=0&t=pallavi23022%2Ftomcat23&target=&ulimits=null&version=1: open //./pipe/docker_engine: The system cannot find the file specified. In the default daemon configuration on Windows, the docker client must be run elevated to connect. This error may also indicate that the docker daemon is not running.`
